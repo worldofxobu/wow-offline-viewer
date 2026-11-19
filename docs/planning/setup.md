@@ -36,6 +36,8 @@ The constitution records the lasting rules we agree on. It does not require choo
 
 Each checkpoint has its own project issue with acceptance criteria. Dependencies determine when work becomes ready; do not start all checkpoints at once. GitHub is the source of truth for completion, so this page does not duplicate checkboxes or status reports.
 
+The [first-release scope](first-release-scope.md) records the accepted browse flow and the remaining discovery questions. It also proposes where UI wireframes and feature design fit before coding.
+
 ## Coding gate
 
 Setup ends when the working rules and constitution are accepted, developer setup is repeatable, repository checks are working, and the first feature has an accepted specification, architecture decisions, a reviewed plan and small tasks with test requirements.

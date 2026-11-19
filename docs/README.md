@@ -12,6 +12,7 @@ Start with the [Setup guide](planning/setup.md). The [GitHub project](https://gi
 | [Contribution guide](../CONTRIBUTING.md) | How to take an issue, verify a change and submit it for review. |
 | [GitHub policy](development/github-policy.md) | Approved solo-maintainer review process, verified GitHub baseline and future CI gates. |
 | [Setup guide](planning/setup.md) | The short working method and initial coding gate. |
+| [First-release scope](planning/first-release-scope.md) | Accepted browse flow, proposed design timing and remaining release/source questions. |
 | [Architecture decisions](architecture/decisions/README.md) | Significant choices, evidence, alternatives and consequences. |
 | [Discovery proposal](planning/project-discovery-proposal.md) | Historical initial observations and proposed options; not current status or accepted architecture. |
 
