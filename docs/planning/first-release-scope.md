@@ -17,6 +17,8 @@ Approval evidence: the owner answered “of course yes” to the proposed browse
 
 Edition priority evidence: “Def should support Wow: Forever first we can work on classic era later, and don't care much for retail.” This establishes product priority; it does not verify a client build, addon version or the origin of the local samples.
 
+The owner subsequently confirmed that the existing local SavedVariables samples are from their WoW: Forever installation. [Source discovery](../discovery/savedvariables.md) distinguishes that owner-reported provenance from structural observations and unresolved compatibility evidence.
+
 ## Recommendations to review
 
 - Start with enough fields to identify a character, profession and recorded recipe. Exact fields, labels and availability must be checked against the supported data before acceptance.
@@ -27,7 +29,7 @@ These recommendations do not select a UI framework, approve a design or authoriz
 
 ## Unresolved decisions and evidence
 
-1. Exact WoW: Forever client build, addon/schema versions and provenance of the local samples; verify the character/profession/recipe relationships against matching addon source. Whether the existing samples come from Forever remains unconfirmed.
+1. Exact WoW: Forever client build and addon/schema versions; verify the character/profession/recipe relationships against matching addon source. The owner confirms the samples are from Forever; their exact export build and addon versions remain unresolved.
 2. Essential display fields and available recipe names/metadata; do not promise information the source cannot supply.
 3. Windows version/CPU target, offline expectations and how users refresh source data.
 
