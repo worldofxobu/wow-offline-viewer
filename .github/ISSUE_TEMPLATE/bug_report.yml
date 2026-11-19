@@ -1,0 +1,37 @@
+name: Bug report
+description: Report a reproducible problem with the viewer.
+title: "[Bug]: "
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Search existing issues before reporting a bug. Use small, sanitized examples; do not attach raw SavedVariables files or personal account data.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem and what you expected instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: Include the viewer version or commit, operating system, browser or runtime, and relevant WoW/addon versions, if applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Logs, screenshots, or a minimal example
+      description: Remove character/account names, realm names, file paths, and other personal data before sharing.
