@@ -22,9 +22,9 @@
 
 - Start with the short [Setup guide](docs/planning/setup.md) and the active GitHub issue.
   Work on one task at a time; ask only decisions needed for that task.
-- The [constitution](.specify/memory/constitution.md) is a draft awaiting ratification.
-  Do not infer approval of architecture or application coding from its presence.
+- Follow the [constitution](.specify/memory/constitution.md), ratified as v1.0.0 on 2026-11-19.
+  Its ratification does not approve an application architecture or authorize feature coding.
 - Keep WoW SavedVariables read-only and unexecuted. Keep raw player data local and
   out of commits, external tools, logs and public artifacts.
-- Keep these instructions consistent with the owner's decisions and the accepted
-  constitution once ratified. The long discovery proposal is background reference.
+- Keep these instructions consistent with the owner's decisions and the ratified
+  constitution. The long discovery proposal is background reference.

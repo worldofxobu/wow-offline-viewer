@@ -1,6 +1,6 @@
 # WoW Offline Viewer Constitution
 
-**Status: draft for review, based on the owner's constitution input and accepted working method.**
+**Status: ratified by the project owner on 2026-11-19.**
 
 ## Core Principles
 
@@ -69,5 +69,5 @@ Use semantic versions: major for incompatible rule changes, minor for new or exp
 patch for clarifications. Check compliance during planning and PR review; any exception MUST have
 explicit owner approval, a recorded rationale and a bounded scope.
 
-**Version**: 0.1.0 | **Ratified**: TODO(RATIFICATION_DATE): pending owner review
+**Version**: 1.0.0 | **Ratified**: 2026-11-19
 **Last Amended**: 2026-11-19
