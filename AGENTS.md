@@ -40,9 +40,18 @@
 
 - Start with the short [Setup guide](docs/planning/setup.md) and the active GitHub issue.
   Work on one task at a time; ask only decisions needed for that task.
+- Read the issue's acceptance criteria, the [contribution guide](CONTRIBUTING.md), and any
+  relevant feature spec, tasks and ADRs before editing. Find current work in the project;
+  do not infer its status from chat history or a stale local note.
+- Inspect the current Git branch and working tree before changes; preserve unrelated work.
+  Distinguish verified facts, assumptions, recommendations and unresolved decisions.
 - Follow the [constitution](.specify/memory/constitution.md), ratified as v1.0.0 on 2026-11-19.
   Its ratification does not approve an application architecture or authorize feature coding.
 - Keep WoW SavedVariables read-only and unexecuted. Keep raw player data local and
   out of commits, external tools, logs and public artifacts.
 - Keep these instructions consistent with the owner's decisions and the ratified
   constitution. The long discovery proposal is background reference.
+- Follow the [documentation map](docs/README.md). Record lasting findings and accepted
+  decisions in repository documents, link them from issues, and update affected docs with the work.
+- Review [ADR guidance](docs/architecture/decisions/README.md) before proposing significant
+  architectural changes. Keep feature test requirements explicit and follow the constitution.

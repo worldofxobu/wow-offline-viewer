@@ -2,7 +2,7 @@
 
 **Working method accepted by the project owner on 2026-11-19.**
 
-The [constitution](../../.specify/memory/constitution.md) was ratified as v1.0.0 on 2026-11-19. Next: [Setup 3 — repository and AI workspace instructions](https://github.com/worldofxobu/wow-offline-viewer/issues/4). Ratification does not approve an application architecture or authorize feature coding.
+The [constitution](../../.specify/memory/constitution.md) was ratified as v1.0.0 on 2026-11-19. Use the [documentation map](../README.md) and [contribution guide](../../CONTRIBUTING.md) for workspace instructions. Follow the project's current status and dependencies for the next task; ratification does not authorize feature coding.
 
 Work is tracked in the [WoW Offline Viewer project](https://github.com/users/worldofxobu/projects/1). Use its **Stage = Setup** field and **Setup** milestone to find this work. This page is the short entry point; the [discovery proposal](./project-discovery-proposal.md) is background reference, not a checklist to read before each task.
 
