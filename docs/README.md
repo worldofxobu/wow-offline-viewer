@@ -1,5 +1,7 @@
 # Documentation map
 
+Document layout accepted by the project owner on 2026-11-19 in [Setup 3](https://github.com/worldofxobu/wow-offline-viewer/issues/4).
+
 Start with the [Setup guide](planning/setup.md). The [GitHub project](https://github.com/users/worldofxobu/projects/1) tracks current work; this map explains where lasting knowledge belongs.
 
 | Source | Responsibility |
