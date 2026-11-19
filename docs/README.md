@@ -10,6 +10,7 @@ Start with the [Setup guide](planning/setup.md). The [GitHub project](https://gi
 | [Constitution](../.specify/memory/constitution.md) | Ratified principles and amendment rules. |
 | [Agent instructions](../AGENTS.md) | Agent behavior, workflow invocation and automatic commit/push authorization. |
 | [Contribution guide](../CONTRIBUTING.md) | How to take an issue, verify a change and submit it for review. |
+| [GitHub policy](development/github-policy.md) | Solo-maintainer review process and proposed repository settings; awaiting owner approval. |
 | [Setup guide](planning/setup.md) | The short working method and initial coding gate. |
 | [Architecture decisions](architecture/decisions/README.md) | Significant choices, evidence, alternatives and consequences. |
 | [Discovery proposal](planning/project-discovery-proposal.md) | Historical initial observations and proposed options; not current status or accepted architecture. |

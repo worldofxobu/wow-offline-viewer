@@ -55,3 +55,5 @@
   decisions in repository documents, link them from issues, and update affected docs with the work.
 - Review [ADR guidance](docs/architecture/decisions/README.md) before proposing significant
   architectural changes. Keep feature test requirements explicit and follow the constitution.
+- Read the [GitHub policy](docs/development/github-policy.md) for review, readiness and quality
+  gates. Its proposed GitHub settings require separate owner approval before application.
