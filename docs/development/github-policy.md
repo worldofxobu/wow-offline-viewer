@@ -1,8 +1,8 @@
 # GitHub review and quality policy
 
-**Status: proposed for owner review in [Setup 4](https://github.com/worldofxobu/wow-offline-viewer/issues/5).**
+**Status: owner-approved; GitHub settings applied and read-back verified on 2026-11-19 in [Setup 4](https://github.com/worldofxobu/wow-offline-viewer/issues/5).**
 
-The owner confirmed a solo-maintainer setup on 2026-11-19. The policy below is prepared for review; the [settings payload](github-settings-proposal.json) has not been applied.
+The owner confirmed the solo-maintainer model and explicitly approved this policy and the exact [settings payload](github-settings-proposal.json) on 2026-11-19. The payload was applied without changes.
 
 ## Work and review
 
@@ -19,9 +19,9 @@ The owner confirmed a solo-maintainer setup on 2026-11-19. The policy below is p
 
 **Done:** acceptance criteria and verification are met, affected docs are current, and the owner accepts the result. Record integration separately: a pushed branch or accepted issue does not mean its PR has merged.
 
-## Proposed GitHub enforcement
+## Verified GitHub enforcement
 
-| Setting | Proposed value |
+| Setting | Verified value |
 | --- | --- |
 | Merge methods | Squash only. |
 | Changes to `main` | Require a pull request, including for administrators. |
@@ -52,4 +52,6 @@ Setup 7 must select stable check names, prove they run and fail correctly, and t
 
 Inspected on 2026-11-19: public repository, `main` default branch, authenticated account has admin access; all three merge methods enabled; auto-merge and automatic head-branch deletion disabled; no rulesets, no protection on `main`, and zero Actions workflows. This is the before-state, not a claim that the proposed settings are active.
 
-After owner approval, apply the reviewed payload, read back the settings and record verification in the issue. Template and documentation changes become available on the default branch when their PR is merged.
+Applied on 2026-11-19 after owner approval. Read-back checks matched every payload field, confirmed `main` is protected, and confirmed visibility, default branch, auto-merge and automatic head-branch deletion were unchanged. Detailed execution evidence is recorded in the Setup 4 issue.
+
+The JSON file records the initial Setup 4 baseline. Do not blindly reapply it after Setup 7 adds required checks; reconcile future changes with live settings and obtain approval for protection changes. Template and documentation changes become available on the default branch when their PR is merged; PR #9 is still unmerged.

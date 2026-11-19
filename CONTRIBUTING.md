@@ -19,7 +19,7 @@ The repository is initialized with Spec Kit. Keep detailed design and implementa
 1. Read the issue's acceptance criteria and dependencies, the [constitution](./.specify/memory/constitution.md), and relevant specs/ADRs from the [documentation map](./docs/README.md). Record uncertainties explicitly.
 2. Inspect `git status --short` and `git branch --show-current`. Work on a focused branch; keep unrelated changes intact.
 3. Make a small change, update affected docs and run relevant checks. Behavioral specs must explicitly request automated tests; bug fixes need regression tests. For documentation, check links, formatting and `git diff --check`.
-4. Record checks run, results and limitations in the issue/PR. Use a focused PR into `main` for review and integration, following the [PR template](./.github/PULL_REQUEST_TEMPLATE.md). The [solo-maintainer policy](./docs/development/github-policy.md) and its GitHub settings are proposed in Setup 4 and await owner approval.
+4. Record checks run, results and limitations in the issue/PR. Use a focused PR into `main` for review and integration, following the [PR template](./.github/PULL_REQUEST_TEMPLATE.md) and the approved [solo-maintainer policy](./docs/development/github-policy.md).
 
 Agents have standing authorization to commit and push completed, verified batches under [AGENTS.md](./AGENTS.md#automatically-commit-and-push-completed-batches). This publishes the working branch; it does not merge it or approve pending decisions.
 
