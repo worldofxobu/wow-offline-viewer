@@ -1,5 +1,7 @@
 # Contributing
 
+The project is currently in setup. Begin with the [Setup guide](./docs/planning/setup.md); its working method was accepted on 2026-11-19. App development begins after the Setup coding gate is met.
+
 Use [GitHub Issues](https://github.com/worldofxobu/wow-offline-viewer/issues) to report bugs, propose features, and track work. Search for an existing issue first, then choose the bug report, feature request, or task form.
 
 ## Tracking work
