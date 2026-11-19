@@ -18,6 +18,24 @@
   For example, do not replace a requested Spec Kit constitution run with a hand-written
   constitution and describe it as a completed command.
 
+## Automatically commit and push completed batches
+
+- The owner grants standing authorization to commit and push completed, in-scope
+  batches of work. Do not ask for fresh authorization after every batch.
+- A batch is one coherent task or reviewable change with its applicable verification
+  completed. Saving a batch does not imply owner approval of pending decisions or reviews.
+- After relevant checks pass, use the commit and sync workflows to create a meaningful
+  commit and push the working branch. Follow GitHub Flow and configure upstream when needed.
+- Stage only changes belonging to the batch. Preserve unrelated or user-staged work;
+  if ownership or scope is unclear, stop and explain before committing it.
+- Verify the working tree and upstream ahead/behind state afterward. Report the commit,
+  branch, verification results and any remaining changes. Do not create empty commits.
+- If checks fail or sensitive data, an ambiguous remote, conflicts or authentication
+  prevent publication, report the blocker instead of claiming completion.
+- This authorization does not permit merging PRs, force-pushing, changing branch protections,
+  or bypassing hooks, signing or tool-approval requirements. Follow the user's specific
+  instructions if they request a batch remain uncommitted or unpushed.
+
 ## Current project context
 
 - Start with the short [Setup guide](docs/planning/setup.md) and the active GitHub issue.
