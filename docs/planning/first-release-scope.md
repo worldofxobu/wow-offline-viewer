@@ -19,6 +19,8 @@ Edition priority evidence: “Def should support Wow: Forever first we can work 
 
 The owner subsequently confirmed that the existing local SavedVariables samples are from their WoW: Forever installation. [Source discovery](../discovery/savedvariables.md) distinguishes that owner-reported provenance from structural observations and unresolved compatibility evidence.
 
+Conditional owner preference: use local WoW data for display metadata where feasible and permitted, rather than defaulting to online lookup. [Local metadata research](../discovery/local-metadata-options.md) separates in-game API export from archive reading. No mechanism or offline guarantee is accepted yet.
+
 ## Recommendations to review
 
 - Start with enough fields to identify a character, profession and recorded recipe. Exact fields, labels and availability must be checked against the supported data before acceptance.

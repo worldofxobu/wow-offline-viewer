@@ -51,6 +51,8 @@ The following describe the inspected source snapshot, not an executed import of 
 
 Consequently, an offline viewer needs an agreed metadata source or explicit missing-name behavior. Whether another local table supplies enough metadata remains unverified. Recorded recipes may include entries marked unlearned; this does not establish a complete missing-recipe catalog.
 
+The owner prefers local metadata when feasible and permitted. [Local metadata options](local-metadata-options.md) record the investigation of in-game API snapshots and client archives, including texture and permission limits. Neither route is approved.
+
 ### Reproducible source identity
 
 Paths below are relative to `Interface/AddOns/`. SHA-256 fingerprints identify the installed source inspected on 2026-11-19; they are not upstream commit IDs. No addon source or assets were copied into this repository. The inspected `DataStore/License.txt` states all rights reserved; source inspection does not establish redistribution permission.

@@ -14,6 +14,7 @@ Start with the [Setup guide](planning/setup.md). The [GitHub project](https://gi
 | [Setup guide](planning/setup.md) | The short working method and initial coding gate. |
 | [First-release scope](planning/first-release-scope.md) | Accepted browse flow, proposed design timing and remaining release/source questions. |
 | [SavedVariables discovery](discovery/savedvariables.md) | Sample provenance, privacy-safe structural observations and unresolved compatibility evidence. |
+| [Local metadata options](discovery/local-metadata-options.md) | Feasibility, permission evidence and unresolved choices for using the local WoW installation. |
 | [Architecture decisions](architecture/decisions/README.md) | Significant choices, evidence, alternatives and consequences. |
 | [Discovery proposal](planning/project-discovery-proposal.md) | Historical initial observations and proposed options; not current status or accepted architecture. |
 
