@@ -1,0 +1,5 @@
+# Local World of Warcraft data, including all nested files and folders.
+/SavedVariables/
+
+# Local Specify CLI help output.
+/specify-help.txt
