@@ -2,17 +2,20 @@
 
 Related work: [Setup 5](https://github.com/worldofxobu/wow-offline-viewer/issues/1).
 
-Status: browsing scope accepted by the owner on 2026-11-19; source compatibility and release details remain unresolved. This is a discovery brief, not a feature specification or implementation plan.
+Status: browsing scope and edition priorities accepted by the owner on 2026-11-19; exact source compatibility and release details remain unresolved. This is a discovery brief, not a feature specification or implementation plan.
 
 ## Accepted scope
 
 - Windows desktop viewer using Altoholic/DataStore SavedVariables.
 - Browse characters → a character's professions → recipes recorded in the source data.
 - Defer a complete catalog of missing/unlearned recipes.
+- Target WoW: Forever first. Defer Classic Era to later work; Retail is a low priority with no first-release support commitment.
 - Treat imported files as untrusted, read-only data; never execute them or publish raw player data.
 - Continue with requirements, source discovery and design. The owner explicitly confirmed that application coding is too early.
 
 Approval evidence: the owner answered “of course yes” to the proposed browse flow and deferred catalog, while emphasizing that features and design must be developed before coding.
+
+Edition priority evidence: “Def should support Wow: Forever first we can work on classic era later, and don't care much for retail.” This establishes product priority; it does not verify a client build, addon version or the origin of the local samples.
 
 ## Recommendations to review
 
@@ -24,7 +27,7 @@ These recommendations do not select a UI framework, approve a design or authoriz
 
 ## Unresolved decisions and evidence
 
-1. First supported WoW edition, addon/schema versions and provenance of the local samples; verify the character/profession/recipe relationships against matching addon source.
+1. Exact WoW: Forever client build, addon/schema versions and provenance of the local samples; verify the character/profession/recipe relationships against matching addon source. Whether the existing samples come from Forever remains unconfirmed.
 2. Essential display fields and available recipe names/metadata; do not promise information the source cannot supply.
 3. Windows version/CPU target, offline expectations and how users refresh source data.
 
